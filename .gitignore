@@ -1,0 +1,10 @@
+# Entorno virtual
+.venv/
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+# VS Code settings (opcional)
+.vscode/
+# Archivos de configuración sensible (claves, certificados)
+# Si usaras un archivo de configuración separado para secretos, lo ignorarías aquí.
+# Por ahora, como las credenciales están en main.py, NO lo ignoramos.
