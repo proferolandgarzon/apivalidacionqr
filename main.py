@@ -7,9 +7,9 @@ import ssl  # Necesario para manejar la ruta del certificado SSL
 # --- Configuración de Conexión a Azure MySQL Database ---
 # IMPORTANTE: El usuario de Azure MySQL requiere el sufijo @nombre_del_servidor
 DB_SERVER = 'centroagsapo.mysql.database.azure.com'
-DB_NAME = 'registroasistentes'
-DB_USER = 'adminaurora'
-DB_PASSWORD = 'b4s3d4t0sAurora2025'
+DB_NAME = 'dbvideojuegos'
+DB_USER = 'utede'
+DB_PASSWORD = 'utede2025'
 DB_PORT = 3306  # Asegúrate que es un entero
 # ---
 # CRÍTICO: Necesitas la ruta al certificado SSL de Azure.
@@ -137,4 +137,5 @@ async def validate_qr(data: QRCodeData):
 #if __name__ == "__main__":
 #    import uvicorn
 #    uvicorn.run(app, host="0.0.0.0", port=8000)
+
 
